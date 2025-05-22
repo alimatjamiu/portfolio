@@ -2,7 +2,7 @@ import WorkCard from "../components/card/workCard";
 
 export default function Work() {
   return (
-<div className="lg:border">
+<div className="border">
       <div className="  space-y-10 py-4 px-6 lg:px-0">
       <div className="lg:w-[400px] lg:ml-20 xl:ml-32 space-y-2">
         <h1 className="text-[24px] font-medium lg:text-3xl text-white">FEATURED PROJECTS</h1>

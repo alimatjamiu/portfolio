@@ -4,11 +4,11 @@ import Person from "../../../public/images/6dd8e389a3 1.png"
 
 export default function aboutMe() {
   return (
-    <div>
+    <div className="p-2">
         <div className="bg-[#C7C7C7]  lg:w-[800px] rounded-md mx-auto ">
             <Image className="mx-auto  object-cover " src={Person} alt="person" width={400} height={300}/>
         </div>
-        <div className=" space-y-2 text-xl  flex flex-col lg:flex-row lg:gap-10 justify-center p-2 py-10 lg:p-14 ">
+        <div className=" space-y-2 text-xl  flex flex-col lg:flex-row lg:gap-10 justify-center  py-10 lg:p-14 ">
           <div>
            <h1 className="text-3xl text-white w-[560px] mb-4"> MY CAPABILITIES</h1>
           </div>
@@ -27,7 +27,7 @@ export default function aboutMe() {
                     <button className="border border-[#C7C7C7] rounded-full p-2 px-4">TAILWIND</button>
                  </div>
             </div>
-            <div className="lg:hidden text-white space-y-4">
+            <div className="lg:hidden text-white space-y-4 ">
              <div className="flex gap-4">
                <button className="border borde-[#C7C7C7] rounded-full p-4 px-6 text-[14px]">HTML</button>
                <button className="border borde-[#C7C7C7] rounded-full p-4 px-6 text-[14px]">CSS</button>
@@ -47,24 +47,24 @@ export default function aboutMe() {
           </div>
         </div>
         <div className=" text-xl flex flex-col lg:flex-row lg:gap-10 justify-center lg:p-14 ">
-          <div className="text-2xl lg:text-3xl text-white w-[560px]">MY EXPERIENCE</div>
+          <div className="text-2xl lg:text-3xl text-white w-[560px] mb-6">MY EXPERIENCE</div>
           <div className="lg:w-[580px] space-y-8 ">
             <div>
-              <div className="flex justify-between pb-4 flex-col lg:flex-row">
+              <div className="flex justify-between pb-4 gap-2 flex-col lg:flex-row">
                 <h4 className="text-white">Freelance Developer </h4>
               <span className="text-[14px] text-[#C7C7C7]">Nov 2023 present</span>
               </div>
-              <p className="text-[#C7C7C7] md:text-[16px] text-[14px]">lamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p className="text-[#C7C7C7] md:text-[16px] text-[14px]">I’m a freelance web developer with 1 year experience specializing in building fast, modern, and responsive websites using React, Next.js, and Tailwind CSS</p>
             </div>
            <div>
              <div className="pb-4">
-             <div className="flex justify-between flex-col lg:flex-row ">
+             <div className="flex justify-between gap-2 flex-col lg:flex-row ">
                <h4 className="text-white">Front-End Intern</h4>
               <span className="text-[#C7C7C7] text-[14px]">Nov 2023 present</span>
              </div>
              <h6 className="text-[#D3E97A] text-[16px]">Roose Tech</h6>
             </div>
-            <p className="text-[#C7C7C7] md:text-[16px] text-[14px]">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p className="text-[#C7C7C7] md:text-[16px] text-[14px]">I’m currently working as a front-end development intern at tech studio academy where I’m gaining hands-on experience building responsive and accessible websites. </p>
            </div>
           </div>
         </div>

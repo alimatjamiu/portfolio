@@ -7,7 +7,7 @@ export default function About() {
   const [more, setMore] = useState(false);
 
   return (
-    <div className="px-2 lg:px-0 lg:border   ">
+    <div className="px-2 lg:px-0 border py-12   ">
       <div className="space-y-2 text-xl flex flex-col lg:flex-row lg:gap-26 justify-center p-6 lg:pb-28">
         <h1 className="text-white lg:w-[300px] lg:text-[40px]">ABOUT ME</h1>
         <div className="space-y-4 lg:w-[540px]">
